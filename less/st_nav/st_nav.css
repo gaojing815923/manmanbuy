@@ -1,0 +1,27 @@
+.hidn {
+  display: none;
+}
+.main {
+  width: 100%;
+}
+.main .class_link {
+  margin: 25px auto;
+  width: 400px;
+}
+.main .class_link a {
+  color: #333;
+  float: left;
+  background: #f4f4f4;
+  border: 1px solid #bfbfbf;
+  background-origin: content-box;
+  background-clip: content-box;
+  padding: 10px 15px;
+  margin: 5px;
+}
+.main .class_link a img {
+  margin-right: 5px;
+}
+.main .class_link a:hover {
+  color: #333;
+  text-decoration: none;
+}

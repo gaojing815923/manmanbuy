@@ -1,0 +1,178 @@
+      .hidn {
+          display: none;
+      }
+.clearfix::after {
+    display: block;
+    height: 0;
+    content: "";
+    clear: both;
+}
+      .zhekou_main {
+          width: 100%;
+          padding: 0 10px;
+          .banxin {
+              padding: 0 20px;
+              position: relative; //   overflow: hidden;
+              div:nth-child(2) {
+                  //  font：font-weight font-style font-size font-family  
+                  font: 700 20px '微软雅黑';
+                  padding: 10px 0;
+              }
+              div:nth-child(3) {
+                  color: #ff6c00;
+                  font: 700 16px '微软雅黑';
+              }
+              div:nth-child(4) {
+                  color: #999;
+                  padding: 20px 0;
+              }
+              div:nth-child(5) {
+                  .info {
+                      color: #333;
+                      font-size: 18px;
+                      float: left;
+                      width: 78%;
+                  }
+                  .smImg {
+                      float: right;
+                      width: 20%;
+                      img {
+                          width: 100%;
+                      }
+                  }
+              }
+              div:nth-child(6) {
+                  margin: 0 auto;
+                  width: 300px; //   height: 200px;
+                  img {
+                      width: 300px;
+                  }
+              }
+              div:nth-child(7) {
+                  //   margin: 0 auto;
+                  //   width: 400px;
+                  #disstorck {
+                      // border: 1px solid #999;
+                      width: 300px;
+                      margin: 0 auto;
+                      li {
+                          width: 300px;
+                          height: 40px;
+                          margin: 0 auto;
+                          a>span {
+                              display: block;
+                              width: 200px;
+                              height: 40px;
+                              line-height: 40px;
+                              color: #333;
+                              float: left;
+                              border-bottom: 1px dashed #ccc;
+                              strong {
+                                  float: right;
+                                  color: #ff6c00;
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+      }
+
+      .btn {
+          width: 100%;
+          color: #fff;
+          background-color: #ff6c00;
+          margin: 15px 0;
+      }
+
+      .btn:hover {
+          color: #fff;
+      }
+
+      .comment {
+          padding: 0 10px 10px 10px;
+          p {
+              display: block;
+              font-size: 18px;
+          }
+          div:nth-child(2) {
+              padding: 5px;
+              border: 2px solid #ccc;
+              position: relative;
+              textarea {
+                  width: 100%;
+                  border: none;
+              }
+              p {
+                  width: 112px;
+                  height: 50px;
+                  color: #fff;
+                  background-color: #ff6c00;
+                  padding: 10px 20px;
+                  font-size: 18px;
+                  position: absolute;
+                  bottom: -10px;
+                  right: 0px;
+              }
+          }
+          p:nth-child(4) {
+              margin: 10px 0;
+          }
+          .comment_new {
+              margin: 10px 0;
+              border-bottom: 1px solid #ccc;
+          }
+          .comments_des {
+              // padding-top: 20px;
+              overflow: hidden;
+              border: none;
+              p {
+                  border-bottom: 1px dashed #999;
+                  font-size: 16px;
+                  height: 50px;
+                  line-height: 50px;
+                  padding: 0 30px;
+              }
+          }
+          .comment_tag {
+              margin: 10px 0;
+          }
+      }
+
+      .foot {
+          .mmmapp {
+              margin: 30px 10px;
+              color: #fff;
+              border-top: 1px solid #ccc;
+              background-color: #434343;
+              position: relative;
+              img {
+                  width: 100px;
+                  padding: 15px;
+                  float: left;
+              }
+              .mmm_word {
+                  float: left;
+                  margin-top: 15px;
+                  position: absolute;
+                  top: 0px;
+                  left: 100px;
+                  p {
+                      font-size: 14px;
+                  }
+              }
+              p:nth-child(3) {
+                  display: inline-block;
+                  width: 80px;
+                  height: 35px;
+                  line-height: 35px;
+                  text-align: center;
+                  color: #fff;
+                  background-color: #6db110;
+                  border-radius: 10px;
+                  position: absolute;
+                  top: 10px;
+                  right: 30px;
+              }
+          }
+      }

@@ -1,0 +1,163 @@
+.hidn {
+  display: none;
+}
+.clearfix::after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+}
+.zhekou_main {
+  width: 100%;
+  padding: 0 10px;
+}
+.zhekou_main .banxin {
+  padding: 0 20px;
+  position: relative;
+}
+.zhekou_main .banxin div:nth-child(2) {
+  font: 700 20px '微软雅黑';
+  padding: 10px 0;
+}
+.zhekou_main .banxin div:nth-child(3) {
+  color: #ff6c00;
+  font: 700 16px '微软雅黑';
+}
+.zhekou_main .banxin div:nth-child(4) {
+  color: #999;
+  padding: 20px 0;
+}
+.zhekou_main .banxin div:nth-child(5) .info {
+  color: #333;
+  font-size: 18px;
+  float: left;
+  width: 78%;
+}
+.zhekou_main .banxin div:nth-child(5) .smImg {
+  float: right;
+  width: 20%;
+}
+.zhekou_main .banxin div:nth-child(5) .smImg img {
+  width: 100%;
+}
+.zhekou_main .banxin div:nth-child(6) {
+  margin: 0 auto;
+  width: 300px;
+}
+.zhekou_main .banxin div:nth-child(6) img {
+  width: 300px;
+}
+.zhekou_main .banxin div:nth-child(7) #disstorck {
+  width: 300px;
+  margin: 0 auto;
+}
+.zhekou_main .banxin div:nth-child(7) #disstorck li {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+}
+.zhekou_main .banxin div:nth-child(7) #disstorck li a > span {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  color: #333;
+  float: left;
+  border-bottom: 1px dashed #ccc;
+}
+.zhekou_main .banxin div:nth-child(7) #disstorck li a > span strong {
+  float: right;
+  color: #ff6c00;
+}
+.btn {
+  width: 100%;
+  color: #fff;
+  background-color: #ff6c00;
+  margin: 15px 0;
+}
+.btn:hover {
+  color: #fff;
+}
+.comment {
+  padding: 0 10px 10px 10px;
+}
+.comment p {
+  display: block;
+  font-size: 18px;
+}
+.comment div:nth-child(2) {
+  padding: 5px;
+  border: 2px solid #ccc;
+  position: relative;
+}
+.comment div:nth-child(2) textarea {
+  width: 100%;
+  border: none;
+}
+.comment div:nth-child(2) p {
+  width: 112px;
+  height: 50px;
+  color: #fff;
+  background-color: #ff6c00;
+  padding: 10px 20px;
+  font-size: 18px;
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+}
+.comment p:nth-child(4) {
+  margin: 10px 0;
+}
+.comment .comment_new {
+  margin: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.comment .comments_des {
+  overflow: hidden;
+  border: none;
+}
+.comment .comments_des p {
+  border-bottom: 1px dashed #999;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 30px;
+}
+.comment .comment_tag {
+  margin: 10px 0;
+}
+.foot .mmmapp {
+  margin: 30px 10px;
+  color: #fff;
+  border-top: 1px solid #ccc;
+  background-color: #434343;
+  position: relative;
+}
+.foot .mmmapp img {
+  width: 100px;
+  padding: 15px;
+  float: left;
+}
+.foot .mmmapp .mmm_word {
+  float: left;
+  margin-top: 15px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+.foot .mmmapp .mmm_word p {
+  font-size: 14px;
+}
+.foot .mmmapp p:nth-child(3) {
+  display: inline-block;
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #6db110;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
