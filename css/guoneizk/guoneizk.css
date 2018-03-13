@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clearfix::after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+}
+.clearfix::before {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+}
+.header {
+  width: 100%;
+  height: 44px;
+  background-color: #ff841d;
+  color: #fff;
+}
+.header .header_left {
+  float: left;
+  font-size: 26px;
+}
+.header .header_left a {
+  color: #fff;
+  display: block;
+  width: 30px;
+  height: 44px;
+  padding-left: 5px;
+}
+.header .header_left a .glyphicon {
+  position: relative;
+  top: 6px;
+}
+.header h3 {
+  text-align: center;
+  line-height: 44px;
+  margin: 0;
+}
+.header .header_right {
+  background: url(../../img/gnzk/header_app.png) no-repeat;
+  background-size: 32px;
+  width: 40px;
+  height: 39px;
+  margin: 0 auto;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+}
+.main ul a {
+  color: #333;
+  display: block;
+}
+.main ul a li {
+  float: left;
+  width: 50%;
+  padding: 10px 15px;
+}
+.main ul a li img {
+  width: 80%;
+  margin: 0 auto;
+}
+.main ul a li div:nth-child(1) {
+  text-align: center;
+}
+.main ul a li div:nth-child(2) {
+  height: 40px;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+}
+.main ul a li div:nth-child(3) {
+  margin-top: 5px;
+  color: #ff6c00;
+}
+.main ul a li div:nth-child(4) {
+  margin: 5px 0;
+  color: #a1a1a1;
+}
+.foot .nav_menu {
+  padding-left: 10px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #ebebeb;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ebebeb));
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #aaa;
+}
+.foot .nav_menu a {
+  color: #000;
+  font-size: 14px;
+}
+.foot .nav {
+  margin-top: 30px;
+  height: 36px;
+  line-height: 36px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.foot .nav ul li {
+  float: left;
+  text-align: center;
+  width: 33.3333333%;
+  border-right: 1px solid #ccc;
+}
+.foot .nav ul li a {
+  color: #000;
+  font-size: 14px;
+}
+.foot .nav ul li:nth-last-child {
+  border-right: none;
+}
+.foot .footerApp {
+  text-align: center;
+  padding: 30px 0;
+  background: #efefef;
+}
+.foot .footerApp span a {
+  color: red;
+}
+.foot .footerApp span:nth-child(3) {
+  color: #333;
+}
+.foot .footerApp span:nth-child(4) {
+  color: #333;
+}
+.fix {
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+}
+.fix img {
+  width: 60%;
+  height: 60%;
+  float: right;
+}
