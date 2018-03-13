@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="./../../../lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../css/init.css">
+    <link rel="stylesheet" href="./../../css/coupon/coupon_function.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="head-bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-2 head-left">
+                        <a href="../../../shouye/html/index.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a>
+                    </div>
+                    <div class="col-xs-8 head-center">
+                        <h1>优惠卷</h1>
+                    </div>
+                    <div class="col-xs-2 head-right">
+                        <img src="./../../../img/header_app.png" alt="购物车">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="tbody">
+        <div class="tbody-bg">
+            <div class="container-fluid" id="coupon-profile">
+                <!-- 这是一个坑 -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="nav">
+            <p><a href="../../../shouye/html/index.html">首页</a>&nbsp;&gt;&nbsp;优惠卷</p>
+        </div>
+        <div class=" foot-con">
+            <div class="row">
+                <div class="col-xs-12 footer-center">
+
+                    <ul>
+                        <li><a href="javascript:;">登录</a></li>
+                        <li><a href="javascript:;">注册</a></li>
+                        <li class="last">
+                            <a href="javascript:;"><img src="./../../../img/top.jpg" alt="回到顶部"> 返回顶部</a>
+                        </li>
+                    </ul>
+
+                    <div class="footerApp">
+                        <span><a href="javascript:;" class="app">手机APP下载</a></span>
+                        <span class="m-phone">慢慢买手机版</span>
+                        <span>--掌上比价平台</span>
+                        <br>
+                        <span>m.manmanbuy.com。</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script id="coupon" type="text/tpl">
+        <div class="row">
+            {{ each $data lesson i }}
+            <div class="col-xs-4 tbody-center">
+                <a href="./coupon_list.html" class="tb-text" value="{{ lesson.couponId}}" data_tt="{{ lesson.couponTitle}}">
+                    <img src="{{ lesson.couponImg }}" alt="">
+                    <p>{{ lesson.couponTitle}}</p>
+                </a>
+            </div>
+            {{ /each }}
+        </div>
+    </script>
+    <script src="./../../../lib/lib.js"></script>
+    <script src="./../../js/coupon/coupon.js"></script>
+</body>
+
+
+
+</html>

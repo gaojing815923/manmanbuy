@@ -1,0 +1,237 @@
+/* logo+手机版app下载 */
+body{
+    background-color: #f2f2f2;
+}
+.m_top{
+    background-color: #ff841d;
+    height: 50px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.m_top>.logo{
+    padding: 12px;
+}
+.m_top>.logo>a>img{
+    max-height: 25px;
+    overflow: hidden;
+}
+.m_top .app{
+    padding: 7px;
+}
+.m_top .app a img{
+    max-height: 34px;
+    overflow: hidden;
+}
+/* 搜索框 */
+.search1{
+    border-bottom: 1px solid #e6e6e6;
+    height: 50px;
+    position: relative;
+    background-color: white;
+}
+.search1 .searchtxt{
+    padding: 10px;
+}
+.search1 .searchtxt input {
+    -webkit-appearance: none;
+    border: none;
+    background: #f1f1f1;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    /*padding-left: 10px;*/
+    width: 90%;
+    padding-left: 5%;
+    font-size: 16px;
+}
+.search1 .searchbtn input{
+    background-color: #ff841d;
+    width: 63px;
+    color: #fff;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.aaas{
+    padding: 5px;
+}
+.brife{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ebebeb;
+}
+.fl_t a{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    padding-left: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid #cccccc;
+    text-decoration: none;
+    background: url("../../../img/arrow1.gif")no-repeat right center;
+}
+.fl_t .up{
+    height: 40px;
+    background: url("../../../img/arrow2.gif")right center no-repeat;
+    line-height: 40px;
+    color: #000;
+    font-size: 16px;
+    display: block;
+    padding-left: 16px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    background-color: #ebebeb;
+}
+.fl_all{
+    width: 100%;
+    margin-left: -1px;
+    border-bottom: 2px solid #888;
+    /*border: 1px solid #000;*/
+    background: #f9f9f9;
+    padding: 0;
+}
+.fl_all li{
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    list-style: none;
+    width: 33.33%;
+    float: left;
+    padding: 0;
+}
+
+.fl_all li a{
+    color: #333;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* 底部 */
+.nav{
+    border-bottom: 1px solid #c4c4c4;
+    background-color: #efefef;
+    border-top: 1px solid #c4c4c4;
+    margin-top: 25px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+.nav li{
+    padding: 0;
+    border-right: 1px solid #c4c4c4;
+    width: 30%;
+    float: left;
+}
+.nav li:nth-child(3){
+    border-right: none;
+    width: 40%;
+}
+.nav li a{
+    color: #5a5a5a;
+}
+.nav li a img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 2px;
+}
+.footerApp{
+    background-color: #efefef;
+    text-align: center;
+    padding: 15px 0;
+    color: #666;
+}
+.footerApp span{
+    font-size: 12px;
+    color: #666;
+}
+.footerApp span a{
+    color: red;
+}
+/* 底部广告部分 */
+.app_bar{
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    display: block;
+    height: 60px;
+    width: 100%;
+    background-color: #faf8f5;
+    transition: opacity .2s ease-out;
+}
+.app_bar .fix{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    padding: 38px 24px 20px;
+    background-image: url("../../../img/TB2U68FkXXXXXXBXFXXXXXXXXXX_!!379516416.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 21px;
+    opacity: 1;
+}
+.app_bar .mmp{
+    position: absolute;
+    left: 46px;
+    top: 0;
+    bottom: 0;
+    width: 41px;
+    height: 41px;
+    background-image: url("../../../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 41px;
+    margin: auto;
+}
+.app_bar .title{
+    margin-top: 12px;
+    font-size: 18px;
+    color: #888;
+    margin-left: 97px;
+    margin-bottom: 0;
+    margin-right: 84px;
+    line-height: 1;
+}
+.app_bar .des{
+    margin-top: 3px;
+    font-size: 14px;
+    color: #999;
+    margin-left: 97px;
+    margin-right: 84px;
+    line-height: 1;
+}
+.app_bar .loat_btn{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 74px;
+    height: 32px;
+    padding-top: 10px;
+    margin: auto;
+    font-size: 13px;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    background-color: #ff7700;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px #ff5500;
+    text-decoration: none;
+
+}

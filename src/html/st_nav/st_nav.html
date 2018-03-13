@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!--理想视口-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title></title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="../../../less/guoneizk/guoneizk.css" />
+    <link rel="stylesheet" href="../../../less/st_nav/st_nav.css" />
+    <link rel="stylesheet" href="../../css/init.css" />
+    <link rel="stylesheet" href="../../../lib/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="header clearfix">
+        <div class="header_left">
+            <a href="../../../shouye/html/index.html">
+                <span class="glyphicon glyphicon-menu-left"></span>
+            </a>
+        </div>
+
+        <div class="header_right"></div>
+        <h3>商城导航</h3>
+    </div>
+    <div class="main">
+        <div class="class_link">
+            <!--<a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">京东商城</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">淘宝</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">天猫商城</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">1号店</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">苏宁易购</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">京东商城</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">淘宝</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">天猫商城</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">1号店</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">苏宁易购</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">京东商城</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">淘宝</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">天猫商城</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">1号店</a>
+            <a href="javascript:;"><img src="../../../img/gnzk/jd.png" alt="">苏宁易购</a>-->
+
+        </div>
+    </div>
+    <div class="foot clearfix">
+        <div class="nav_menu">
+            <a href="../../../shouye/html/index.html">首页</a>
+            <span>></span>
+            <a href="javascript:;">商城导航</a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="javascript:;">登录</a></li>
+                <li><a href="javascript:;">注册</a></li>
+                <li><a href="#">返回顶部</a></li>
+            </ul>
+        </div>
+        <div class="footerApp">
+            <span><a href="javascript:;">手机APP下载</a></span>
+            <span>慢慢买手机版</span>
+            <span class="three">--掌上比价平台</span>
+            <br>
+            <span>m.manmanbuy.com。</span>
+        </div>
+    </div>
+    <div class="fix">
+        <img src="../../../img/gnzk/App.png" alt="">
+    </div>
+
+    <script id="nav_list_tpl" type="text/template">
+        {{each $data nav_list i}}
+        <div class="hidn">{{nav_list.navId}}</div>
+        <a href="{{nav_list.navHref}}" target="_blank"><img src="{{@nav_list.navImg}}" alt="">{{nav_list.navTitle}}</a> {{/each}}
+    </script>
+
+    <script src="../../../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../../../lib/template-web.js"></script>
+    <script src="../../js/guoneizk/st_nav.js"></script>
+</body>
+
+</html>

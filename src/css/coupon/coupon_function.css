@@ -1,0 +1,129 @@
+header {
+  background: #f4483e;
+  color: #FFFFFF;
+  height: 44px;
+  width: 100%;
+  position: relative;
+}
+header .head-bg {
+  padding: 0 10px;
+}
+header .head-bg .head-left {
+  margin-left: -12px;
+}
+header .head-bg .head-left span {
+  display: inline-block;
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
+  line-height: 42px;
+}
+header .head-bg .head-center h1 {
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 44px;
+}
+header .head-bg .head-right img {
+  width: 32px;
+  margin-top: 6px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.tbody-bg {
+  margin-top: 15px;
+}
+.tbody-bg .tbody-center {
+  height: 80px;
+  width: 33.33%;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+.tbody-bg .tbody-center .tb-text {
+  padding-top: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.tbody-bg .tbody-center .tb-text img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+.tbody-bg .tbody-center .tb-text p {
+  text-align: center;
+}
+footer {
+  padding-top: 20px;
+  color: #000;
+}
+footer a {
+  color: #000;
+}
+footer .nav {
+  width: 100%;
+  height: 36px;
+  background-color: #ebebeb;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ebebeb));
+  border-top: solid 1px #ebebeb;
+  border-bottom: 1px solid #ccc;
+  line-height: 36px;
+  padding-left: 8px;
+  font-size: 14px;
+}
+footer .foot-con .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+footer .foot-con .row .footer-center {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+footer .foot-con .row .footer-center ul {
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  background-color: #efefef;
+  margin-top: 25px;
+  height: 34px;
+  line-height: 34px;
+}
+footer .foot-con .row .footer-center ul li {
+  float: left;
+  width: 30%;
+  text-align: center;
+  height: 32px;
+  border-right: 1px solid #c4c4c4;
+}
+footer .foot-con .row .footer-center ul li a {
+  font-size: 14px;
+}
+footer .foot-con .row .footer-center ul .last {
+  border-right: 0 solid #c4c4c4;
+  width: 40%;
+}
+footer .foot-con .row .footer-center ul .last a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+footer .foot-con .row .footer-center ul .last a img {
+  width: 15px;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+footer .foot-con .row .footer-center .footerApp {
+  background-color: #efefef;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px 0;
+  color: #666;
+}
+footer .foot-con .row .footer-center .footerApp .app {
+  color: red;
+}
+footer .foot-con .row .footer-center .footerApp .m-phone {
+  color: #000;
+}

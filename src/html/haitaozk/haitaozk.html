@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>haitaozk.html</title>
+    <link rel="stylesheet" href="../../../less/guoneizk/guoneizk.css" />
+    <link rel="stylesheet" href="../../../less/haitaozk/haitaozk.css" />
+    <link rel="stylesheet" href="../../css/init.css" />
+    <link rel="stylesheet" href="../../../lib/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="header clearfix">
+        <div class="header_left">
+            <a href="../../../shouye/html/index.html">
+                <span class="glyphicon glyphicon-menu-left"></span>
+            </a>
+        </div>
+
+        <div class="header_right"></div>
+        <h3>海淘折扣</h3>
+    </div>
+    <div class="haitao_main clearfix">
+        <div class="main_center clearfix">
+            <ul id="haitao_list">
+                <!--页面数据渲染-->
+            </ul>
+
+            <div class="haitao_page pagination">
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <button type="button" class="page_w first btn btn-lg " id="shang">上一页</button>
+                        </a>
+                    </li>
+                    <li id="select_list">
+                        <!--<select class="page_w secode" name="" id="">
+                        <option value="">1/20</option>
+                        <option value="">1/20</option>
+                        <option value="">1/20</option>
+                        <option value="">1/20</option>
+                        </select>-->
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <button type="button" class="page_w three btn btn-lg" id="xia"> 下一页</button>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="foot clearfix">
+        <div class="nav_menu">
+            <a href="../../../shouye/html/index.html">首页</a>
+            <span>></span>
+            <a href="../getmoneyctrl/getmoneyctrl.html">省钱控</a>
+            <span>></span>
+            <a href="../haitaozk/haitaozk.html">海淘折扣</a>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="javascript:;">登录</a></li>
+                <li><a href="javascript:;">注册</a></li>
+                <li><a href="#">返回顶部</a></li>
+            </ul>
+        </div>
+
+        <div class="footerApp">
+            <span><a href="javascript:;">手机APP下载</a></span>
+            <span>慢慢买手机版</span>
+            <span class="three">--掌上比价平台</span>
+            <br>
+            <span>m.manmanbuy.com。</span>
+        </div>
+    </div>
+    <div class="fix">
+        <img src="../../../img/gnzk/App.png" alt="">
+    </div>
+
+    <script id="haitao_liat_tpl" type="text/template">
+        {{each $data haitao i}}
+        <li>
+            <a href="../haitaozk/htzhekou.html?id={{haitao.productId}}" target="_blank">
+                <div class="hidn">{{haitao.productId}}</div>
+                <div class="haitao_left">
+                    {{@haitao.productImgSm}}
+                </div>
+                <div class="haitao_right">
+                    <div class="haitao_right_des">
+                        <div>{{haitao.productName}}</div>
+
+                        <div>{{haitao.productPinkage}}</div>
+                    </div>
+                    <div class="haitao_right_mate">
+                        <span class="mall">{{haitao.productFrom}}</span>
+                        <span class="common"><i  class="glyphicon glyphicon-list-alt"></i>{{haitao.productComCount}}</span>
+                    </div>
+                </div>
+
+            </a>
+
+        </li>
+        {{/each}}
+    </script>
+    <script id="pageControl" type="text/template">
+        <select class="page_w secode" name="page" id="page">
+            <!--{{each result haitao_page i}}
+                <option value="{{(i+1)}}">{{(i+1)}}/{{totalCount}}</option> 
+                {{/each}}  -->
+             </select>
+    </script>
+    <script src="../../../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../../../lib/template-web.js"></script>
+    <script src="../../js/guoneizk/haitao.js"></script>
+    <script src="../../js/guoneizk/page.js"></script>
+
+</body>
+
+</html>

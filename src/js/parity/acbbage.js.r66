@@ -1,0 +1,9 @@
+
+$.get('http://139.199.192.48:9090/api/getbaicaijiatitle',function(data){
+    console.log(data);
+    $('#ul').html(template('li',data.result));
+});
+$.get('http://139.199.192.48:9090/api/getbaicaijiaproduct',{titleid:abc},function(data){
+    console.log(data);
+    $('#content').html(template('cont',data.result));
+});

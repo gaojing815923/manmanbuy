@@ -1,0 +1,300 @@
+header .m_top {
+  background-color: #ff841d;
+  height: 50px;
+  border-bottom: 1px solid #e6e6e6;
+}
+header .m_top .logo {
+  padding: 12px;
+}
+header .m_top .logo img {
+  max-height: 25px;
+}
+header .m_top .app {
+  padding: 7px;
+}
+header .m_top .app img {
+  max-height: 34px;
+}
+header .search1 {
+  border-bottom: 1px solid #e6e6e6;
+  height: 50px;
+  position: relative;
+  background-color: white;
+}
+header .search1 .searchtxt {
+  padding: 10px;
+}
+header .search1 .searchtxt input {
+  -webkit-appearance: none;
+  border: none;
+  background: #f1f1f1;
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  width: 90%;
+  padding-left: 5%;
+  font-size: 16px;
+}
+header .search1 .searchbtn input {
+  background-color: #ff841d;
+  width: 63px;
+  color: #fff;
+  border: none;
+  height: 30px;
+  border-radius: 15px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.tbody {
+  background-color: #ebebeb;
+}
+.tbody .nav {
+  width: 100%;
+  height: 36px;
+  background-color: #ebebeb;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ebebeb));
+  border-top: solid 1px #ebebeb;
+  border-bottom: 1px solid #ccc;
+  line-height: 36px;
+  padding-left: 8px;
+  font-size: 14px;
+}
+.tbody .ranking {
+  font-size: 16px;
+  color: #874604;
+  height: 40px;
+  padding-left: 10px;
+  line-height: 40px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #eee;
+  font-weight: 900;
+}
+.tbody ul {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+.tbody ul li {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px;
+}
+.tbody ul .good a {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  color: #000;
+  font-size: 16px;
+  display: block;
+  font-weight: 900;
+}
+.tbody ul .good a em.top1 {
+  background: #f10e0e;
+}
+.tbody ul .good a em.top2 {
+  background: green;
+}
+.tbody ul .good a em.top3 {
+  background: pink;
+}
+.tbody ul .good a em {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background: #c9c9c9;
+  color: #FFFFFF;
+  line-height: 20px;
+  vertical-align: top;
+  margin: 0 10px 0 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.tbody ul .good a .inner {
+  display: inline-block;
+}
+.tbody ul .good a .inner .tit {
+  line-height: 24px;
+  font-size: 18px;
+}
+.tbody ul .good a .inner p {
+  font-size: 12px;
+  color: #999999;
+  margin-top: 3px;
+  font-weight: 400;
+  line-height: 12px;
+}
+.tbody ul .good a:before {
+  content: "〉";
+  display: block;
+  position: absolute;
+  right: -15px;
+  top: 0;
+  font-size: 18px;
+  color: #666;
+}
+.tbody ul .ph a {
+  display: block;
+}
+.tbody ul .ph a .pic {
+  float: left;
+  margin-right: 10px;
+}
+.tbody ul .ph a .pic img {
+  width: 100px;
+  height: 100px;
+}
+.tbody ul .ph a .info {
+  font-size: 14px;
+  line-height: 24px;
+}
+.tbody ul .ph a .info .tit {
+  color: #333333;
+  line-height: 22px;
+  min-height: 44px;
+  word-break: break-all;
+}
+.tbody ul .ph a .info .price {
+  height: 25px;
+  margin-top: 4px;
+}
+.tbody ul .ph a .info .price em {
+  font-size: 18px;
+  color: #ea3900;
+  vertical-align: middle;
+  float: left;
+}
+.tbody ul .ph a .info .price .star {
+  float: right;
+  margin-top: 2px;
+  background-image: url(../../html/brand/2.svg);
+  display: inline-block;
+  width: 90px;
+  height: 18px;
+}
+.tbody ul .ph a .info .price .star em {
+  background-image: url(../../html/brand/1.svg);
+  display: inline-block;
+  width: 70px;
+  height: 18px;
+}
+.tbody ul .ph a .info .other {
+  font-size: 12px;
+  color: #999999;
+}
+.tbody ul .ph a .info .other em {
+  font-style: normal;
+  margin-right: 10px;
+}
+.tbody ul .pl a .protit {
+  margin-bottom: 10px;
+}
+.tbody ul .pl a .protit .pic {
+  float: left;
+  margin-right: 10px;
+}
+.tbody ul .pl a .protit .pic img {
+  width: 80px;
+  height: 80px;
+}
+.tbody ul .pl a .protit .tit {
+  color: #999999;
+  line-height: 22px;
+  font-size: 14px;
+  word-break: break-all;
+}
+.tbody ul .pl .plbox {
+  background: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #e7e7e7;
+  position: relative;
+}
+.tbody ul .pl .plbox a {
+  display: block;
+}
+.tbody ul .pl .plbox a .name {
+  color: #2e8b01;
+  font-size: 14px;
+}
+.tbody ul .pl .plbox a .name .star {
+  margin-top: -4px;
+  background-image: url(../../html/brand/2.svg);
+  display: inline-block;
+  width: 90px;
+  height: 18px;
+  vertical-align: middle;
+}
+.tbody ul .pl .plbox a .name .star em {
+  background-image: url(../../html/brand/1.svg);
+  display: inline-block;
+  width: 70px;
+  height: 18px;
+}
+.tbody ul .pl .plbox a .name i {
+  color: #999999;
+  float: right;
+  font-style: normal;
+}
+.tbody ul .pl .plbox a .con {
+  color: #000000;
+  margin-top: 10px;
+  line-height: 22px;
+  font-size: 15px;
+  word-break: break-all;
+}
+footer {
+  color: #000;
+  background-color: #ebebeb;
+}
+footer a {
+  color: #000;
+}
+footer .foot-con .footer-center ul {
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  background-color: #efefef;
+  margin-top: 25px;
+  height: 34px;
+  line-height: 34px;
+}
+footer .foot-con .footer-center ul li {
+  float: left;
+  width: 30%;
+  text-align: center;
+  height: 32px;
+  border-right: 1px solid #c4c4c4;
+}
+footer .foot-con .footer-center ul li a {
+  font-size: 14px;
+}
+footer .foot-con .footer-center ul .last {
+  border-right: 0 solid #c4c4c4;
+  width: 40%;
+}
+footer .foot-con .footer-center ul .last a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+footer .foot-con .footer-center ul .last a img {
+  width: 15px;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+footer .foot-con .footer-center .footerApp {
+  background-color: #efefef;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px 0;
+  color: #666;
+}
+footer .foot-con .footer-center .footerApp .app {
+  color: red;
+}
+footer .foot-con .footer-center .footerApp .m-phone {
+  color: #000;
+}
