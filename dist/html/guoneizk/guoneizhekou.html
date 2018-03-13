@@ -1,0 +1,12 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><title></title><style></style><link rel="stylesheet" href="../../../less/guoneizk/guoneizk.css"><link rel="stylesheet" href="../../css/init.css"><link rel="stylesheet" href="../../../lib/bootstrap/dist/css/bootstrap.min.css"></head><body><div class="header clearfix"><div class="header_left"><a href="javascript:;"><span class="glyphicon glyphicon-menu-left"></span></a></div><div class="header_right"></div><h3>国内折扣</h3></div><div class="main clearfix"><div class="banxin"><ul id="main_list"></ul></div></div><div class="foot clearfix"><div class="nav_menu"><a href="javascript:;">首页</a> <span>></span> <a href="javascript:;">国内折扣</a></div><div class="nav"><ul><li><a href="javascript:;">登录</a></li><li><a href="javascript:;">注册</a></li><li><a href="#">返回顶部</a></li></ul></div><div class="footerApp"><span><a href="javascript:;">手机APP下载</a></span> <span>慢慢买手机版</span> <span class="three">--掌上比价平台</span><br><span>m.manmanbuy.com。</span></div></div><div class="fix"><img src="../../../img/gnzk/App.png" alt=""></div><script id="main_list-tpl" type="text/template">{{each $data pro_list i}}
+        <a href="file:///E:/manmanbuy/src/html/guoneizk/zhekou.html?id={{pro_list.productId}}" target="_blank">
+            <li>
+                <div class="hidn">{{pro_list.productId}}</div>
+                <div class="one">{{@pro_list.productImg}}</div>
+                <div class="two">{{pro_list.productName}}</div>
+                <div class="three">{{pro_list.productPrice}}元</div>
+                <div class="four">{{pro_list.productFrom}} | {{pro_list.productTime}}</div>
+
+            </li>
+        </a>
+        {{/each}}</script><script src="../../../lib/jquery/dist/jquery.min.js"></script><script src="../../../lib/template-web.js"></script><script src="../../js/guoneizk/guoneizk.js"></script></body></html>

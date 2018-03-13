@@ -1,0 +1,76 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>05</title><meta name="viewport" content="width=device-width"><link rel="stylesheet" href="../../../src/css/init.css"><link rel="stylesheet" href="../../../less/guoneizk/guoneizk.css"><link rel="stylesheet" href="../../../lib/bootstrap/dist/css/bootstrap.min.css"><script src="../../../lib/jquery/dist/jquery.min.js"></script><script src="../../../lib/bootstrap/dist/js/bootstrap.min.js"></script><script src="../../../lib/template-web.js"></script><style>.hend{background-color:#ff841d;display:block;text-align:center;border:1px solid #a1a1a1}#media img{width:100%}a span{padding-left:10px}strong{float:right;padding-right:10px}.userimg{width:50px;display:inline-block}.userimg img{width:50px;border-radius:50%;display:block}.time{float:right;color:#a1a1a1}.con{border:1px solid #fff;margin-left:60px;display:inline-block}.zhekou_main{width:100%;background-color:#f90;text-align:center}.btn{background-color:#f90;color:#fff}.username{color:#0ff;float:left}.list{padding:10px}.cu-content-pl{padding:10px}#ctl00_ContentBody_txt_nr{width:100%}.ctrl{float:right}#ctl00_ContentBody_Button1{background-color:#f90;color:#fff;float:right}.tit{clear:both}#disstorck strong{color:red}#disstorck li a>span{display:block;width:100%;height:40px;line-height:40px;color:#333;border-bottom:1px dashed #ccc}</style></head><body id="getmoney-tow"></body><script id="getmoney-tow-tpl" type="text/tpl">{{ each $data xiangqilist i }}
+	<div class="hend">				
+			<ul class="nav nav-pills">
+				<li><a href="#"><span class="glyphicon glyphicon-chevron-left" style="color:#fff;"></span></a></li>
+				<span style="color:#fff; font-size: 20px;line-height: 40px;text-align: center">国内折扣</span>
+				<li style="float: right;"><a href="#"><img src="../../../img/gnzk/header_app.png" style="width:2rem" alt=""></a></li>
+			</ul>
+		</div>
+		<div class="body" style="max-width: 960px;margin:0 auto;padding:10px">
+			<h3 style="font-size: 18px">{{xiangqilist.productName}}</h3>
+			<h4 style="color: #ff6c00;font-size: 15px;">69元包邮（券后）</h4>
+			<div style="color: #999999; font-size: 12px;">
+				<span>{{xiangqilist.productFrom}}</span>
+				<span>{{xiangqilist.productTime}}</span>
+				<span>tara{{xiangqilist.productTips}}</span>
+			</div>
+			
+			<div id="media" class="media">
+				<a class="pull-right" href="#" style="width:2px;height:2px;display: block;">
+					<!-- <img style="width:120px;height:120px" class="" src="{{str}}"
+					alt="通用的占位符图像"> -->
+					
+				</a>
+				<div style="width:120px;height:120px;float:right" >
+					{{@xiangqilist.productImgSm}}
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">媒体标题</h4>
+					{{xiangqilist.productInfo}}
+					{{xiangqilist.productInfo1}}
+				</div>
+			</div>
+			<div style="margin:0 auto;"> 
+				{{@xiangqilist.productImgLg}}
+			</div>	
+
+			
+			<div style="margin:0 auto;width:180px;border:#a1a1a1 1px solid">
+					{{@xiangqilist.productCity}}
+			</div>
+
+
+			<div class="zhekou_main">
+					<a href="javascript:;"><button type="button" class="btn btn-lg"> 前往购买</button></a> </div>
+	
+			</div>
+	
+			
+			<div class="comment clearfix">
+					<div class="media">
+							{{@xiangqilist.productComment}}
+							
+					</div>
+				</div>
+	
+		<div class="foot" style="background-color: #f2f2f2;">
+			
+			<div class="nav">
+				<ul>
+					<li><a href="javascript:;">登录</a></li>
+					<li><a href="javascript:;">注册</a></li>
+					<li><a href="#">返回顶部</a></li>
+				</ul>
+			</div>
+			<div class="footerApp">
+				<span><a href="javascript:;">手机APP下载</a></span>
+				<span>慢慢买手机版</span>
+				<span class="three">--掌上比价平台</span>
+				<br>
+				<span>m.manmanbuy.com。</span>
+			</div>
+		</div>
+		<div class="fix">
+			<img style="width: 60%;height: 60%;float: right;" src="../../../img/gnzk/App.png" alt="">
+		</div>
+		{{/each}}</script><script src="../../js/getmoneyctrl/getmoneyctrlctrlproduct.js"></script></html>
