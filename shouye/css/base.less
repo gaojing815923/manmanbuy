@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    /* 去除a标签底部下划线 */
+    text-decoration: none;
+    display: block;
+}    
+
+img {
+    /* 去除图片默认的3px */
+    display: block;
+}
+ 
+ul {  
+    /* 去除ul标签默认小圆点*/
+    list-style: none;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+/* 清除浮动 */
+/* before */
+.clearfix::after {
+    display: block;
+    height: 0;
+    content: "";
+    clear: both;
+}

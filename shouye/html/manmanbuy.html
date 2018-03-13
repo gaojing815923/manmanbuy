@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 理想视口代码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>慢慢买比价网--手机版</title>
+    <link rel="stylesheet" href="../css/manmanbuy.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 顶部广告 -->
+        <div class="banner">
+            <!-- 左边log -->
+            <div class="manmanbuy_log">
+                <a href="javascript:;" title="慢慢买比价网--手机版">
+                    <img src="../img/header_logo.png" alt="">
+                </a>
+            </div>
+            <!-- 右边下载 -->
+            <div class="app_download">
+                <a href="javascript:;" title="手机app下载">
+                    <img src="../img/header_app.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- 搜索栏 -->
+        <div class="searchmmb">
+            <!-- 搜索框 -->
+            <div class="searchtxt">
+                <input class="search" type="text" placeholder="请输入你想比价的商品">
+            </div>
+            <!-- 搜索按钮 -->
+            <div class="searchbtn">
+                <input class="btn" type="submit" value="搜索">
+            </div>
+        </div>
+    </div>
+    <!-- 导航菜单栏 -->
+    <div class="menu_nav">
+        <!-- 分类菜单 -->
+        <div class="menu_line">
+            <!-- 菜单栏的坑 -->
+        </div>
+    </div>
+    <!-- 超值折扣推荐导航栏 -->
+    <div class="discount">
+        <a href="javascript:; ">
+            <div class="recommend ">
+                <span>超值折扣推荐</span>
+                <img src="../img/more.png " alt=" ">
+            </div>
+        </a>
+    </div>
+    <!-- 超值折扣推荐列表 -->
+    <div class="advertising">
+        <!-- 商品列表 -->
+        <div class="merchandise_list">
+            <!--商品列表的坑-->
+        </div>
+    </div>
+    <!-- 更多优惠信息 -->
+    <div class="information">
+        <a href="javascript:;"> 更多优惠信息 >> </a>
+    </div>
+    <!-- 品牌排行导航栏 -->
+    <div class="brands">
+        <a href="javascript:; ">
+            <div class="rankings ">
+                <span>品牌排行</span>
+                <img src="../img/more.png " alt=" ">
+            </div>
+        </a>
+    </div>
+    <!-- 底部 -->
+    <div class="mmb_footer">
+        <div class="mmb_nav">
+            <a href="javaScript:;">登录</a>
+            <a href="javaScript:;">注册</a>
+            <a href="javaScript:;">
+                <img src="../img/homepage/top.jpg" alt=""> 返回顶部
+            </a>
+        </div>
+        <div class="footerApp">
+            <a class="color_red" href="javaScript:;">手机APP下载</a>
+            <a href="javaScript:;">慢慢买手机版</a>
+            <p class="platform">--掌上比价平台</p>
+            <p>m.manmanbuy.com</p>
+        </div>
+    </div>
+</body>
+<script>
+/*菜单栏点击 更多 显示和隐藏*/
+</script>
+<script src="../js/lib.js"></script>
+<script src="../js/manmanbuy.js"></script>
+<script id="divTemplate" type="text/template">
+    {{ each $data list i}}
+    <div id="{{ list.indexmenuId }}" class="classify">
+        <a href="{{ list.titlehref }}">
+            <div class="menu_item">
+                <div class="menu_icon">{{@list.img}}</div>
+                <div class="menu_name">{{ list.name }}</div>
+            </div>
+        </a>
+    </div>
+    {{ /each }}
+</script>
+<script id="ulTemplate" type="text/template">
+    <ul>
+        {{ each $data list i }}
+        <li data-id="{{list.productId}}">
+            <a href="javascript:;">
+                <div class="picture">
+                    {{@list.productImgSm}}
+                </div>
+                <div class="describe">
+                    <div class="title">
+                        <span>{{ list.productName }}</span>
+                        <span class="color_orange">{{ list.productPinkage }}</span>
+                    </div>
+                    <div class="introduce">
+                        <span class="mall">{{list.productFrom}}|{{list.productTime}}</span>
+                        <span class="comment"><img src="../img/homepage/xinxi.png" alt="">{{list.productComCount}}</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+        {{ /each }}
+    </ul>
+</script>
+
+</html>

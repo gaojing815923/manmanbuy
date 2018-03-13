@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 理想视口代码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>慢慢买比价网--手机版</title>
+    <link rel="stylesheet" href="../css/manmanbuy.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 顶部广告 -->
+        <div class="banner">
+            <!-- 左边log -->
+            <div class="manmanbuy_log">
+                <a href="javascript:;" title="慢慢买比价网--手机版">
+                    <img src="../img/header_logo.png" alt="">
+                </a>
+            </div>
+            <!-- 右边下载 -->
+            <div class="app_download">
+                <a href="javascript:;" title="手机app下载">
+                    <img src="../img/header_app.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- 搜索栏 -->
+        <div class="searchmmb">
+            <!-- 搜索框 -->
+            <div class="searchtxt">
+                <input class="search" type="text" placeholder="请输入你想比价的商品">
+            </div>
+            <!-- 搜索按钮 -->
+            <div class="searchbtn">
+                <input class="btn" type="submit" value="搜索">
+            </div>
+        </div>
+    </div>
+    <!-- 导航菜单栏 -->
+    <div class="menu_nav">
+        <!-- 分类菜单 -->
+        <div class="menu_line">
+            <div class="classify">
+                <a href="../../src/html/parity/index.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_search.png" alt="">
+                        </div>
+                        <div class="menu_name">比价搜索</div>
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <a href="./../../src/html/getmoneyctrl/getmoneyctrl.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_cu.png" alt="">
+                        </div>
+                        <div class="menu_name">省钱控</div>
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <a href="./../../src/html/guoneizk/guoneizhekou.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_coudanpin.png" alt="">
+                        </div>
+                        <div class="menu_name">国内折扣</div>
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <a href="./../../src/html/baicaijia/cabbage.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_bcj.png" alt="">
+                        </div>
+                        <div class="menu_name">白菜价</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="menu_line">
+            <div class="classify">
+                <a href="./../../src/html/haitaozk/haitaozk.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/haitao.png" alt="">
+                        </div>
+                        <div class="menu_name">海淘折扣</div>
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <a href="./../../src/html/haitaozk/hour.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_vouchers.png" alt="">
+                        </div>
+                        <div class="menu_name">小时风云榜</div>
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <a href="./../../src/html/brand/brand.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_pp.png " alt=" ">
+                        </div>
+                        <div class="menu_name">品牌大全</div>
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <a href="javascript:;">
+                    <div id="more" class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/gengduo.png" alt="">
+                        </div>
+                        <div class="menu_name">更多</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="show" class="menu_line hide">
+            <div class="classify">
+                <a href="./../../src/html/coupon/coupon_function.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_temai.png" alt="">
+                        </div>
+                        <div class="menu_name">优惠券</div>
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <a href="./../../src/html/coudan/coudan.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_coudanpin.png" alt="">
+                        </div>
+                        <div class="menu_name">凑单品</div>
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <a href="javascript:;">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_kb.png " alt=" ">
+                        </div>
+                        <div class="menu_name">口碑排行</div>
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <a href="./../../src/html/st_nav/st_nav.html">
+                    <div class="menu_item">
+                        <div class="menu_icon">
+                            <img src="../img/ic_mall.png " alt=" ">
+                        </div>
+                        <div class="menu_name">商城导航</div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!-- 超值折扣推荐导航栏 -->
+    <div class="discount">
+        <a href="../../src/html/getmoneyctrl/getmoneyctrl.html ">
+            <div class="recommend ">
+                <span>超值折扣推荐</span>
+                <img src="../img/more.png " alt=" ">
+            </div>
+        </a>
+    </div>
+    <!-- 超值折扣推荐列表 -->
+    <div class="haitao_main clearfix">
+        <div class="main_center clearfix">
+            <ul id="haitao_list">
+                <!--页面数据渲染-->
+            </ul>
+
+            <!--<div class="haitao_page pagination">
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <button type="button" class="page_w first btn btn-lg " id="shang">上一页</button>
+                        </a>
+                    </li>
+                    <li id="select_list">
+                        <select class="page_w secode" name="" id="">
+                        <option value="">1/20</option>
+                        <option value="">1/20</option>
+                        <option value="">1/20</option>
+                        <option value="">1/20</option>
+                        </select>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <button type="button" class="page_w three btn btn-lg" id="xia"> 下一页</button>
+                </a>
+            </li>
+            </ul>
+
+
+        </div>-->
+        </div>
+    </div>
+    <!-- 更多优惠信息 -->
+    <div class="information">
+        <a href="../../src/html/getmoneyctrl/getmoneyctrl.html "> 更多优惠信息 >> </a>
+    </div>
+    <!-- 品牌排行导航栏 -->
+    <div class="brands">
+        <a href="./../../src/html/brand/brand.html ">
+            <div class="rankings ">
+                <span>品牌排行</span>
+                <img src="../img/more.png " alt=" ">
+            </div>
+        </a>
+    </div>
+    <!-- 底部 -->
+    <div class="mmb_footer">
+        <div class="mmb_nav">
+            <a href="javaScript:;">登录</a>
+            <a href="javaScript:;">注册</a>
+            <a href="#">
+                <img src="../img/homepage/top.jpg" alt=""> 返回顶部
+            </a>
+        </div>
+        <div class="footerApp">
+            <a class="color_red" href="javaScript:;">手机APP下载</a>
+            <a href="javaScript:;">慢慢买手机版</a>
+            <p class="platform">--掌上比价平台</p>
+            <p>m.manmanbuy.com</p>
+        </div>
+    </div>
+    <div class="fix">
+        <img src="../../img/gnzk/App.png" alt="">
+    </div>
+</body>
+
+<script id="haitao_liat_tpl" type="text/template">
+    {{each $data haitao i}}
+    <li>
+        <a href="../../src/html/getmoneyctrl/getmoneyctrlctrlproduct.html?{{haitao.productId}}" target="_blank">
+            <div class="hidn">{{haitao.productId}}</div>
+            <div class="haitao_left">
+                {{@haitao.productImgSm}}
+            </div>
+            <div class="haitao_right">
+                <div class="haitao_right_des">
+                    <div>{{haitao.productName}}</div>
+
+                    <div>{{haitao.productPinkage}}</div>
+                </div>
+                <div class="haitao_right_mate">
+                    <span class="mall">{{haitao.productFrom}}</span>
+                    <span class="common"><img src="../img/homepage/xinxi.png" alt="">{{haitao.productComCount}}</span>
+                </div>
+            </div>
+
+        </a>
+
+    </li>
+    {{/each}}
+</script>
+<script>
+    /*菜单栏点击 更多 显示和隐藏*/
+    var more = document.querySelector("#more");
+    var show = document.querySelector("#show");
+
+    more.onclick = function() {
+        if (show.style.display == 'none') {
+            show.style.display = 'block';
+        } else
+            show.style.display = 'none';
+    }
+</script>
+<script src="../js/lib.js"></script>
+<!--<script src="../../js/guoneizk/haitao.js"></script>-->
+<script src="../../src/js/guoneizk/haitao.js"></script>
+<!-- <script id="divTemplate" type="text/template">
+    {{ each $data list i}}
+    <div id="{{ list.indexmenuId }}" class="classify">
+        <a href="{{ list.titlehref }}">
+            <div class="menu_item">
+                <div class="menu_icon">{{@list.img}}</div>
+                <div class="menu_name">{{ list.name }}</div>
+            </div>
+        </a>
+    </div>
+    {{ /each }}
+</script> -->
+<!--<script id="ulTemplate" type="text/template">
+    <ul>
+        {{ each $data list i }}
+        <li data-id="{{list.productId}}">
+            <a href="../../src/html/getmoneyctrl/getmoneyctrlctrlproduct.html?{{list.productId}}">
+                <div class="picture">
+                    {{@list.productImgSm}}
+                </div>
+                <div class="describe">
+                    <div class="title">
+                        <span>{{ list.productName }}</span>
+                        <span class="color_orange">{{ list.productPinkage }}</span>
+                    </div>
+                    <div class="introduce">
+                        <span class="mall">{{list.productFrom}}&nbsp;&nbsp;|&nbsp;&nbsp;{{list.productTime}}</span>
+                        <span class="comment"><img src="../img/homepage/xinxi.png" alt="">{{list.productComCount}}</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+        {{ /each }}
+    </ul>
+</script>-->
+
+
+</html>

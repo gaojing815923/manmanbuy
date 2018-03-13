@@ -1,0 +1,281 @@
+@import "base.less";
+
+.hidn{
+    display: none;
+}
+.show{
+    display: block;
+}
+.header{
+    .banner{
+        width: 100%;
+        height: 50px;
+        background-color: #ff841d;
+        border-bottom: 1px solid #e6e6e6;
+        position: relative;
+        .manmanbuy_log{
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 5px;
+            >a{
+                width: 100%;
+                height: 50px;        
+                padding: 12px;        
+                >img{
+                    width: 186px;
+                    height: 25px;
+                }
+            }
+        }
+        .app_download{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            >a{
+                >img{
+                    width: 34px;
+                    height: 34px;
+                }
+            }
+        }
+    }
+    .searchmmb{
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        border-bottom: 1px solid #e6e6e6;
+        position: relative;
+        .searchtxt{
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            .search{
+                width: 1214px;
+                height: 30px;
+                background-color: #f1f1f1;
+                padding-left: 68px;
+                outline: none;
+                border: none;
+                border-radius: 15px;
+                font-size: 16px;
+            }
+        }
+        .searchbtn{
+            position: absolute;
+            right: 0;
+            padding: 10px;
+            .btn{
+                width: 64px;
+                height: 30px;
+                background-color: #ff841d;
+                outline: none;
+                border: none;
+                border-radius: 15px;
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.menu_nav{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 22px;
+    .menu_line{
+        width: 100%;
+        .classify{
+            width: 25%;
+            float: left;
+            text-align: center;
+            margin-bottom: 19px;
+            >a{
+                .menu_item{
+                    .menu_icon{
+                        >img{
+                            width: 50px;
+                            height: 50px;
+                            margin: 0 auto;
+                        }
+                    }
+                    .menu_name{
+                        font-size: 12px;
+                        color: #5a5a5a;
+                    }
+                }
+            }
+        }
+    }
+    .menu_line:nth-child(3){
+        display: none;
+    }
+}
+
+.discount{
+    clear: both;
+    border-top: 4px solid#f7f7f7;
+    >a{
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        .recommend{
+            height: 35px;
+            background-color: #ff9000;
+            padding: 7px;
+            >sapn{
+                float: left;
+            }
+            >img{
+                width: 20px;
+                height: 20px;
+                float: right;
+            }
+        }
+    }
+}
+
+.advertising{
+    .merchandise_list{
+        background-color: #f2f2f2;
+        >ul{
+            >li{
+                width: 960px;
+                height: 128px;
+                border-bottom: 1px solid #e0e0e0;
+                background-color: #fff;
+                margin: 0 auto;
+                >a{
+                    .picture{
+                        float: left;
+                        margin: 14px 10px;
+                        >img{                      
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                    .describe{
+                        float: left;
+                        width: 840px;
+                        .title{
+                            margin-top: 17px;
+                            >span{
+                                font-size: 14px;
+                                color: #333;
+                            }
+                            .color_orange{
+                                color: #ff6c00;
+                            }
+                        }
+                        .introduce{
+                            margin-top: 55px;
+                            >span{
+                                font-size: 12px;
+                                color: #a1a1a1;
+                            }
+                            .mall{
+                                float: left;
+                            }
+                            .comment{
+                                float: right;
+                                >img{
+                                    display: inline-block;
+                                    width: 15px;
+                                    height: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.information{
+    width: 1326px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    >a{
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px;
+        color: #5a5a5a;
+    }
+}    
+
+.brands{
+    clear: both;
+    border-top: 4px solid#f7f7f7;
+    margin-top: 20px;
+    >a{
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        .rankings{
+            height: 35px;
+            background-color: #ff9000;
+            padding: 7px;
+            >sapn{
+                float: left;
+            }
+            >img{
+                width: 20px;
+                height: 20px;
+                float: right;
+            }
+        }
+    }
+}
+
+.mmb_footer{
+    width: 100%;
+    margin-top: 10px;
+    .mmb_nav{
+        >a{
+            width: 30%;
+            height: 34px;
+            line-height: 34px;
+            border: 1px solid #c4c4c4;
+            text-align: center;
+            float: left;
+            color: #5a5a5a;
+            font-size: 14px;
+            >img{
+                width: 15px;
+                height: 15px;
+                margin: 0 auto;
+                display: inline-block;
+            }
+        }
+        >a:nth-child(3){
+            width: 40%;
+            height: 34px;
+        }
+    }
+    .footerApp{
+        width: 100%;
+        text-align: center;
+        >a{
+            font-size: 12px;
+            color: #666;
+            display: inline-block;
+        }
+        .color_red{
+            color: #ff0000;
+        }
+        >p{
+            font-size: 12px;
+            color: #666;
+        }
+        .platform{
+            display: inline-block;
+        }
+    }
+}
